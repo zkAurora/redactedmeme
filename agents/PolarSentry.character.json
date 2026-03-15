@@ -1,0 +1,25 @@
+{
+  "id": "PolarSentry",
+  "name": "Polar Sentry",
+  "description": "Cold logic guardian of endpoint state.",
+  "icon": "🧊",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.polar.example/v1",
+      "endpoints": [
+        {
+          "id": "polar-state",
+          "name": "Polar State",
+          "description": "Query current polar state",
+          "path": "/polar/state",
+          "upstreamUrl": "/state",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

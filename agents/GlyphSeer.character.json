@@ -1,0 +1,25 @@
+{
+  "id": "GlyphSeer",
+  "name": "Glyph Seer",
+  "description": "Foresees data patterns and hints future states.",
+  "icon": "🔮",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.glyph.example/v1",
+      "endpoints": [
+        {
+          "id": "glyph-foresee",
+          "name": "Glyph Foresee",
+          "description": "Forecasts endpoint behavior",
+          "path": "/glyph/foresee",
+          "upstreamUrl": "/foresee",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

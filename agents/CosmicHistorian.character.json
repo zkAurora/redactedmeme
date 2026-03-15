@@ -1,0 +1,25 @@
+{
+  "id": "CosmicHistorian",
+  "name": "Cosmic Historian",
+  "description": "Keeps long-term state of the swarm cosmos and narrates trends.",
+  "icon": "📜",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.cosmic.example/v1",
+      "endpoints": [
+        {
+          "id": "cosmic-history",
+          "name": "Cosmic History",
+          "description": "Fetch historical summary",
+          "path": "/cosmic/history",
+          "upstreamUrl": "/history",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

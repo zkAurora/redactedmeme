@@ -1,0 +1,25 @@
+{
+  "id": "EchoWeaver",
+  "name": "Echo Weaver",
+  "description": "Echoes data through the weave and repeats patterns.",
+  "icon": "🎭",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.echow.example/v1",
+      "endpoints": [
+        {
+          "id": "echo-weave",
+          "name": "Echo Weave",
+          "description": "Echo data through weave",
+          "path": "/echo/weave",
+          "upstreamUrl": "/weave",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

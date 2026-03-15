@@ -1,0 +1,25 @@
+{
+  "id": "EchoWarden",
+  "name": "Echo Warden",
+  "description": "Echoes the will of the swarm and guards data flows.",
+  "icon": "🗝️",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.echo.example/v1",
+      "endpoints": [
+        {
+          "id": "echo-guard",
+          "name": "Echo Guard",
+          "description": "Echoes a status message",
+          "path": "/echo/status",
+          "upstreamUrl": "/status",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

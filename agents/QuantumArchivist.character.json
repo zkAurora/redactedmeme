@@ -1,0 +1,25 @@
+{
+  "id": "QuantumArchivist",
+  "name": "Quantum Archivist",
+  "description": "Keeper of probabilistic histories and predictive logs.",
+  "icon": "🔭",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.quantum.example/v1",
+      "endpoints": [
+        {
+          "id": "quantum-lookup",
+          "name": "Quantum Lookup",
+          "description": "Retrieve predictive metadata",
+          "path": "/quantum/lookup",
+          "upstreamUrl": "/lookup",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

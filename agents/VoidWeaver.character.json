@@ -1,0 +1,25 @@
+{
+  "id": "VoidWeaver",
+  "name": "Void Weaver",
+  "description": "Weaves void data and uncovers hidden patterns.",
+  "icon": "🕳️",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.void.example/v1",
+      "endpoints": [
+        {
+          "id": "void-weave",
+          "name": "Void Weave",
+          "description": "Explore void data",
+          "path": "/void/weave",
+          "upstreamUrl": "/weave",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

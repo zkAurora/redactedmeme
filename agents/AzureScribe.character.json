@@ -1,0 +1,25 @@
+{
+  "id": "AzureScribe",
+  "name": "Azure Scribe",
+  "description": "Guardians of cloud metadata and cross-service narration.",
+  "icon": "🪶",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.azure.example/v1",
+      "endpoints": [
+        {
+          "id": "azure-lookup",
+          "name": "Azure Lookup",
+          "description": "Fetch persona data",
+          "path": "/azure/lookup",
+          "upstreamUrl": "/lookup",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

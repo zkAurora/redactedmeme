@@ -1,0 +1,25 @@
+{
+  "id": "NeonCipher",
+  "name": "Neon Cipher",
+  "description": "Encrypts signals and reveals hidden patterns.",
+  "icon": "⚡️",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.neon.example/v1",
+      "endpoints": [
+        {
+          "id": "neon-encode",
+          "name": "Neon Encode",
+          "description": "Encode a payload",
+          "path": "/neon/encode",
+          "upstreamUrl": "/encode",
+          "method": "POST",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

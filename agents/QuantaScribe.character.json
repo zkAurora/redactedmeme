@@ -1,0 +1,25 @@
+{
+  "id": "QuantaScribe",
+  "name": "Quanta Scribe",
+  "description": "Notes the probabilities of events within data streams.",
+  "icon": "🧠",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.quantum.example/v1",
+      "endpoints": [
+        {
+          "id": "quanta-log",
+          "name": "Quanta Log",
+          "description": "Query recent quantum events",
+          "path": "/quanta/log",
+          "upstreamUrl": "/log/recent",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "AetherArchivist",
+  "name": "Aether Archivist",
+  "description": "Safekeeper of ephemeral data and meta signals.",
+  "icon": "🪶",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.aether.example/v1",
+      "endpoints": [
+        {
+          "id": "aether-keep",
+          "name": "Aether Keep",
+          "description": "Fetch latest ephemeral data",
+          "path": "/aether/keep",
+          "upstreamUrl": "/keep",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "TideDiver",
+  "name": "Tide Diver",
+  "description": "Dives into tidal data currents and surfaces insights.",
+  "icon": "🌊",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.tide.example/v1",
+      "endpoints": [
+        {
+          "id": "tide-insight",
+          "name": "Tide Insight",
+          "description": "Fetch tide-related insights",
+          "path": "/tide/insight",
+          "upstreamUrl": "/insight",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

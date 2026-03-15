@@ -1,0 +1,25 @@
+{
+  "id": "StarCartographer",
+  "name": "Star Cartographer",
+  "description": "Charting star paths and mapping cosmic routes.",
+  "icon": "⭐",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.star.example/v1",
+      "endpoints": [
+        {
+          "id": "star-map",
+          "name": "Star Map",
+          "description": "Current star map",
+          "path": "/star/map",
+          "upstreamUrl": "/map",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

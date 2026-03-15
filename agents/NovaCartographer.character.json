@@ -1,0 +1,25 @@
+{
+  "id": "NovaCartographer",
+  "name": "Nova Cartographer",
+  "description": "Maps data territories across the swarm galaxy.",
+  "icon": "🗺️",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.nova.example/v1",
+      "endpoints": [
+        {
+          "id": "nova-map",
+          "name": "Nova Map",
+          "description": "Get current route map",
+          "path": "/nova/map",
+          "upstreamUrl": "/map",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ChronoWeaver",
+  "name": "Chrono Weaver",
+  "description": "Weaves time-based events into the data flow.",
+  "icon": "⏳",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.timewisp.example/v1",
+      "endpoints": [
+        {
+          "id": "chrono-weave",
+          "name": "Chrono Weave",
+          "description": "Retrieve time-series weave data",
+          "path": "/chrono/weave",
+          "upstreamUrl": "/weave",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

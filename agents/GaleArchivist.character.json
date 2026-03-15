@@ -1,0 +1,25 @@
+{
+  "id": "GaleArchivist",
+  "name": "Gale Archivist",
+  "description": "Archivist of winds and whispers in data streams.",
+  "icon": "🌬️",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.gale.example/v1",
+      "endpoints": [
+        {
+          "id": "gale-curve",
+          "name": "Gale Curve",
+          "description": "Fetch wind curve data",
+          "path": "/gale/curve",
+          "upstreamUrl": "/curve",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

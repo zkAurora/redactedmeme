@@ -1,0 +1,25 @@
+{
+  "id": "HorizonCipher",
+  "name": "Horizon Cipher",
+  "description": "Cipher that reveals horizons and future states.",
+  "icon": "🜁",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.horizon.example/v1",
+      "endpoints": [
+        {
+          "id": "horizon-forecast",
+          "name": "Horizon Forecast",
+          "description": "Forecast horizons",
+          "path": "/horizon/forecast",
+          "upstreamUrl": "/forecast",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

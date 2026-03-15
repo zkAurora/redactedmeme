@@ -1,0 +1,25 @@
+{
+  "id": "SunScribe",
+  "name": "Sun Scribe",
+  "description": "Records daylight-level signals and radiance across domains.",
+  "icon": "☀️",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.sun.example/v1",
+      "endpoints": [
+        {
+          "id": "sun-record",
+          "name": "Sun Record",
+          "description": "Record daylight metrics",
+          "path": "/sun/record",
+          "upstreamUrl": "/record",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

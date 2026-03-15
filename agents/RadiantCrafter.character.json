@@ -1,0 +1,25 @@
+{
+  "id": "RadiantCrafter",
+  "name": "Radiant Crafter",
+  "description": "Crafts radiant artifacts from raw data.",
+  "icon": "✨",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.radiant.example/v1",
+      "endpoints": [
+        {
+          "id": "radiant-create",
+          "name": "Radiant Create",
+          "description": "Create a radiant artifact",
+          "path": "/radiant/create",
+          "upstreamUrl": "/create",
+          "method": "POST",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

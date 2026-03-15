@@ -1,0 +1,25 @@
+{
+  "id": "HyperionCartographer",
+  "name": "Hyperion Cartographer",
+  "description": "Maps distant data spirals across multiple dimensions.",
+  "icon": "🪐",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.hyperion.example/v1",
+      "endpoints": [
+        {
+          "id": "hyperion-map",
+          "name": "Hyperion Map",
+          "description": "Current cosmic route map",
+          "path": "/hyperion/map",
+          "upstreamUrl": "/map",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

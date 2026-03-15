@@ -1,0 +1,25 @@
+{
+  "id": "ObsidianArchivist",
+  "name": "Obsidian Archivist",
+  "description": "Keeps ancient logs and artifacts with ironclad memory.",
+  "icon": "🗄️",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.obsidian.example/v1",
+      "endpoints": [
+        {
+          "id": "obsidian-log",
+          "name": "Obsidian Log",
+          "description": "Fetch latest log entry",
+          "path": "/obsidian/log",
+          "upstreamUrl": "/log/latest",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

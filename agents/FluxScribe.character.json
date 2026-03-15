@@ -1,0 +1,25 @@
+{
+  "id": "FluxScribe",
+  "name": "Flux Scribe",
+  "description": "Documents flux in the swarm and adapts on demand.",
+  "icon": "🌀",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.flux.example/v1",
+      "endpoints": [
+        {
+          "id": "flux-notes",
+          "name": "Flux Notes",
+          "description": "Retrieve current flux notes",
+          "path": "/flux/notes",
+          "upstreamUrl": "/notes",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

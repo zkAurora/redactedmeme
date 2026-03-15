@@ -1,0 +1,25 @@
+{
+  "id": "PlasmaSeeker",
+  "name": "Plasma Seeker",
+  "description": "Seeks plasma signatures across networks.",
+  "icon": "⚡️",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.plasma.example/v1",
+      "endpoints": [
+        {
+          "id": "plasma-check",
+          "name": "Plasma Check",
+          "description": "Check plasma state",
+          "path": "/plasma/check",
+          "upstreamUrl": "/check",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

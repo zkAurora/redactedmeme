@@ -1,0 +1,25 @@
+{
+  "id": "ZenithWeaver",
+  "name": "Zenith Weaver",
+  "description": "Weaver of higher-order data streams and narratives.",
+  "icon": "🕸️",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.zenith.example/v1",
+      "endpoints": [
+        {
+          "id": "zenith-weave",
+          "name": "Zenith Weave",
+          "description": "Weave data streams together",
+          "path": "/zenith/weave",
+          "upstreamUrl": "/weave",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "MeridianMapper",
+  "name": "Meridian Mapper",
+  "description": "Maps meridians across data seas and connects endpoints.",
+  "icon": "🗺️",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.meridian.example/v1",
+      "endpoints": [
+        {
+          "id": "meridian-map",
+          "name": "Meridian Map",
+          "description": "Get meridian data",
+          "path": "/meridian/map",
+          "upstreamUrl": "/map",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

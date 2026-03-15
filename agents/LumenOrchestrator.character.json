@@ -1,0 +1,25 @@
+{
+  "id": "LumenOrchestrator",
+  "name": "Lumen Orchestrator",
+  "description": "Coordinator of light-driven workflows across services.",
+  "icon": "💡",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.lumen.example/v1",
+      "endpoints": [
+        {
+          "id": "lumen-orch-lookup",
+          "name": "Lumen Lookup",
+          "description": "Fetch workflow status",
+          "path": "/lumen/status",
+          "upstreamUrl": "/status",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

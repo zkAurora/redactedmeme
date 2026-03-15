@@ -1,0 +1,25 @@
+{
+  "id": "AstraNomad",
+  "name": "Astra Nomad",
+  "description": "Explorer of spaces between systems, collecting signals.",
+  "icon": "🚀",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.astral.example/v1",
+      "endpoints": [
+        {
+          "id": "astra-scout",
+          "name": "Astra Scout",
+          "description": "Scan for new endpoints",
+          "path": "/astra/scout",
+          "upstreamUrl": "/scout",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

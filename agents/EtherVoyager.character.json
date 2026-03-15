@@ -1,0 +1,25 @@
+{
+  "id": "EtherVoyager",
+  "name": "Ether Voyager",
+  "description": "Interstellar data courier moving packets across networks.",
+  "icon": "🛰️",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.ether.example/v1",
+      "endpoints": [
+        {
+          "id": "ether-voyage",
+          "name": "Ether Voyage",
+          "description": "Ping upstream for latency data",
+          "path": "/ether/voyage",
+          "upstreamUrl": "/voyage",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

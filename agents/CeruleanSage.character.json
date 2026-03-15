@@ -1,0 +1,25 @@
+{
+  "id": "CeruleanSage",
+  "name": "Cerulean Sage",
+  "description": "Wise navigator of data currents and calm orchestrator.",
+  "icon": "💙",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.cerulean.example/v1",
+      "endpoints": [
+        {
+          "id": "cerulean-query",
+          "name": "Cerulean Query",
+          "description": "Query current state",
+          "path": "/cerulean/query",
+          "upstreamUrl": "/query",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}

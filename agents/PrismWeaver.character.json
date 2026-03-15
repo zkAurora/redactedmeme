@@ -1,0 +1,25 @@
+{
+  "id": "PrismWeaver",
+  "name": "Prism Weaver",
+  "description": "Weaves light into data streams for better visibility.",
+  "icon": "🔶",
+  "new": true,
+  "groups": [
+    {
+      "id": "default",
+      "name": "Default Group",
+      "baseUrl": "https://api.prism.example/v1",
+      "endpoints": [
+        {
+          "id": "prism-weave",
+          "name": "Prism Weave",
+          "description": "Weave prism data",
+          "path": "/prism/weave",
+          "upstreamUrl": "/weave",
+          "method": "GET",
+          "parameters": ""
+        }
+      ]
+    }
+  ]
+}
