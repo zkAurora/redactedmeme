@@ -8,7 +8,8 @@
   # Optional: watchPaths = ["python/**", "agents/**", "x402.redacted.ai/**"]  # Trigger rebuilds on changes
 
 [deploy]
-  # Global-ish deploy hints (applied contextually)
+  # Default service: Flask+SocketIO web terminal
+  startCommand = "python web_ui/app.py"
   restartPolicyType = "ON_FAILURE"  # Or ALWAYS for aggressive restarts
   restartPolicyMaxRetries = 10
 
