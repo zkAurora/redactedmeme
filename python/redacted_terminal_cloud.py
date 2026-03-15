@@ -338,6 +338,11 @@ def main():
             print("\n\n[SYSTEM] Session interrupted.")
             state.print_status()
             break
+        except EOFError:
+            # stdin closed (headless/Railway/Docker deployment) — exit cleanly
+            print("\n[SYSTEM] stdin closed. Session terminated.")
+            state.print_status()
+            break
         except Exception as e:
             print(f"\n[ERROR] {e}")
             print("swarm@[REDACTED]:~$ ", end="", flush=True)
